@@ -1,8 +1,11 @@
-
+import React, { Fragment } from 'react'
+import { Header } from './components'
 function App() {
   return (
-    <h1>News search engine</h1>
-  );
+    <Fragment>
+      <Header title='News Search Engine'/>
+    </Fragment>
+  )
 }
 
 export default App;
