@@ -4,7 +4,7 @@ import { NewsCard } from '.'
 
 const NewsList = ({ articles }) =>  {
   return (
-    <div>
+    <div className='row'>
       { articles.map( article => <NewsCard key={ article.title } article={ article }/> ) }
     </div>
   )

@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     if (!category) return
     const getNewsApiData = async () => {
-      const result = await getNewsApi()
+      const result = await getNewsApi(category)
       processApiResult(result)
     }
     getNewsApiData()
